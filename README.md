@@ -1,3 +1,3 @@
-# Calculadora
+# calculator / Calculadora
 
-You can visit my project here: https://erickfloress.github.io/Calculadora/
+You can visit my project at: https://erickfloress.github.io/Calculadora/
