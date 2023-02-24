@@ -1,14 +1,19 @@
 body {
     text-align: center;
     margin: 0;
-    background: grey;
+    background: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
 #calculator {
+    border: 2px solid black;
     max-width: 360px;
     background-color: white;
     border-radius: 10px;
@@ -25,8 +30,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     color: black;
-    background-color: rgba(13,127, 42, 0.5);
-    border: none;
+    background-color: rgba(13, 127, 42, 0.5);
     box-sizing: border-box;
 }
 
@@ -44,4 +48,8 @@ body {
 
 ::placeholder {
     color: black;
+}
+
+body.dark {
+    background-color: black;
 }
